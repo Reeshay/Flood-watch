@@ -1,4 +1,4 @@
-# SAR FloodWatch — integrated Streamlit SAR backend
+# SAR FloodWatch 
 
 The existing Streamlit app, pages, CSS, navigation, guest entry and optional Supabase login are preserved. The original `run_flood_detection(before, after, method_id)` entry point now runs a complete calibrated SAR change pipeline. Results flow through the existing `images`, `analysis`, `history`, `region`, and `overlay_color` session keys into Flood Detection, Overview/map, Before / After, and Analytics.
 
